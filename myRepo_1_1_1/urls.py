@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from my-Repo.views import noor_test
-from django.http import HttpResponse
+from myRepo_1_1_1.views import amirtest
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("noor-test1","noor_test")
+    path ('amir-test',amirtest)
 ]
