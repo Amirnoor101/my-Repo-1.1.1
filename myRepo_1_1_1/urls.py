@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from myRepo_1_1_1.views import amirtest
+from .views import testy
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path ('amir-test',amirtest)
+    path ("testy",testy)
 ]

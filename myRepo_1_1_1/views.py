@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse as res
 
-def amirtest (request) :
-    return HttpResponse ('<h1> This is a test </h1>')
+def testy (request) :
+    return res ('Hello world')
